@@ -1,0 +1,201 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/loading/loading",
+		    "style" : {
+				"navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/login/register/register",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/organize/organize",
+            "style" : {
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/interest/interest",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/addOrg/addOrg",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/addressBook/addressBook",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+        ,{
+            "path" : "pages/chatPage/chatPage",
+            "style" : {
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue610",
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"fontSize": "22px"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/chatPage/departmentInfo/departmentInfo",
+            "style" : {
+				"navigationBarTitleText":"部门信息",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue610",
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"fontSize": "22px"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/organize/activityDetail/activityDetail",
+            "style" : {
+				"navigationBarTitleText":"活动详情"
+			}
+        }
+        ,{
+            "path" : "pages/organize/forumActivityDetail/forumActivityDetail",
+            "style" : {
+				"navigationBarTitleText":"活动详情"
+			}
+        }
+        ,{
+            "path" : "pages/organize/forumDetail/forumDetail",
+            "style" : {
+				"navigationBarTitleText":"详情"
+			}
+        }
+        ,{
+            "path" : "pages/organize/addForum/addForum",
+            "style" : {
+				"navigationBarTitleText":"发帖"
+			}
+        }
+        ,{
+            "path" : "pages/addressBook/friendDetail/friendDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mine/mineErweima/mineErweima",
+            "style" : {
+				"navigationBarTitleText":"个人二维码"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mineWallet/mineWallet",
+            "style" : {
+				"navigationBarTitleText":"钱包"
+			}
+        }
+        ,{
+            "path" : "pages/mine/transDetail/transDetail",
+            "style" : {
+				"navigationBarTitleText":"明细"
+			}
+        }
+        ,{
+            "path" : "pages/mine/historyAct/historyAct",
+            "style" : {
+				"navigationBarTitleText":"历史活动"
+			}
+        }
+        ,{
+            "path" : "pages/mine/groupGift/groupGift",
+            "style" : {
+				"navigationBarTitleText":"群体福利"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mineSetting/mineSetting",
+            "style" : {
+				"navigationBarTitleText":"设置"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mineSetting/setPhone/setPhone",
+            "style" : {
+				"navigationBarTitleText":"手机号绑定"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mineSetting/aboutUs/aboutUs",
+            "style" : {
+				"navigationBarTitleText":"关于嗨玩"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mineSetting/feedBack/feedBack",
+            "style" : {
+				"navigationBarTitleText":"关于嗨玩"
+			}
+        }
+        ,{
+            "path" : "pages/mine/joinTypeAct/joinTypeAct",
+            "style" : {
+				"navigationBarTitleText":"活动类型"
+			}
+        }
+        ,{
+            "path" : "pages/mine/joinTypeAct/editVoteActivity/editVoteActivity",
+            "style" : {
+				"navigationBarTitleText":"活动编辑"
+			}
+        }
+        ,{
+            "path" : "pages/mine/organizationalAct/organizationalAct",
+            "style" : {
+				"navigationBarTitleText":"活动编辑"
+			}
+        }
+        ,{
+            "path" : "pages/notices/notices",
+            "style" : {
+				"navigationBarTitleText":"消息"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}
